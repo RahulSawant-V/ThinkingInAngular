@@ -10,7 +10,7 @@ export class SearchBarComponent implements OnInit {
 
 searchValue:string;
 checkBoxStatus:boolean;
-  constructor(public ps:ProductService) {
+  constructor() {
     this.searchValue=" ";
     this.checkBoxStatus=false;
      }

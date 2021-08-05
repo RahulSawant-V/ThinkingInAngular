@@ -15,7 +15,7 @@ export class ProductRowComponent implements OnInit {
    @Input()
   product!:Product;
 
-  constructor(private ps:ProductService) { 
+  constructor() { 
     
   }
 

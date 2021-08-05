@@ -15,7 +15,7 @@ categories!:Set<string>;
 instock!:boolean
 @Input()
 searchValue!:string
-  constructor(public ps:ProductService) { 
+  constructor(private ps:ProductService) { 
     this.products=this.ps.getProducts(); 
     this.categories=this.ps.getCategories();
     console.log(this.categories.values())  
